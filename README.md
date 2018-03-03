@@ -39,7 +39,7 @@ console.log('HTML', html);
 ### Browser:
 
 ``` javascript
-<script src='../dist/downa.min.js'></script>
+<script src='./node_modules/downa/dist/downa.min.js'></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     var markdown = `
