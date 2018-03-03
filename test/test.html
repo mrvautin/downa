@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>downa test</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.css" />
+        <script src='../dist/downa.min.js'></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var markdown = document.getElementById('markdownContent');
+                var html = downa.render(markdown.innerHTML);
+                document.getElementById('markdownContent').innerHTML = html;
+            });
+        </script>
+    </head>
+    <body>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+            <main class="mdl-layout__content">
+                <div class="mdl-grid">
+                <p class="mdl-cell mdl-cell--8-col" id="markdownContent">
+                    # Title
+
+                    And *now* [a link](http://www.google.com) to **follow** and [another](http://yahoo.com/).
+
+                    * One
+                    * Two
+                    * Three
+
+                    ## Subhead
+
+                    One **two** three **four** five.
+
+                    ![test image](http://via.placeholder.com/350x150)
+
+                    `some inline code`
+
+                    ```
+                    some block code
+                    ```
+
+                    One __two__ three _four_ five __six__ seven _eight_.
+
+                    1. One
+                    2. Two
+                    3. Three
+
+                    More text with sample.
+
+                    > A block quote
+                    > across two lines.
+
+                    More text...
+                </p>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
