@@ -1,6 +1,6 @@
 # downa
 
-> A teeny tiny Markdown to HTML renderer which works in Node and the browser.
+> A teeny tiny (2KB) Markdown to HTML renderer which works in Node and the browser.
 
 ## Installation:
 
@@ -11,6 +11,10 @@
 ### Browser:
 
 `<script src='./node_modules/downa/dist/downa.min.js'></script>`
+
+or CDN
+
+`<script src='https://cdn.rawgit.com/mrvautin/downa/4c87e3b1/dist/downa.min.js'></script>`
 
 > Note: no other dependencies are required. See: test.html for example
 
@@ -57,3 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 ```
+
+### Example:
+
+[See fiddle](https://jsfiddle.net/go80bv0g/4/)
