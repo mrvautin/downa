@@ -14,7 +14,7 @@
 
 or CDN
 
-`<script src='https://cdn.rawgit.com/mrvautin/downa/4c87e3b1/dist/downa.min.js'></script>`
+`<script src='https://unpkg.com/downa@1.0.0/dist/downa.min.js'></script>`
 
 > Note: no other dependencies are required. See: test.html for example
 
@@ -64,4 +64,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Example:
 
-[See fiddle](https://jsfiddle.net/go80bv0g/4/)
+[See fiddle](https://jsfiddle.net/mrvautin/zed49ajn/4/)
