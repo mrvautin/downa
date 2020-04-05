@@ -14,7 +14,7 @@
 
 or CDN
 
-`<script src='https://unpkg.com/downa@1.0.0/dist/downa.min.js'></script>`
+`<script src='https://unpkg.com/downa@1.0.1/dist/downa.min.js'></script>`
 
 > Note: no other dependencies are required. See: test.html for example
 
@@ -43,7 +43,7 @@ console.log('HTML', html);
 ### Browser:
 
 ``` javascript
-<script src='./node_modules/downa/dist/downa.min.js'></script>
+<script src='https://unpkg.com/downa@1.0.1/dist/downa.min.js'></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     var markdown = `
